@@ -1,0 +1,13 @@
+{
+  "hurriyet": {
+    "url": "https://api.hurriyet.com.tr/v1",
+    "key": "API_KEY"
+  },
+
+  "elasticsearch": {
+    "host": "127.0.0.1:9200",
+    "index": "heygidi",
+    "type": "articles",
+    "stopWordsPath": "/tmp/analysis/stop_words.txt"
+  }
+}

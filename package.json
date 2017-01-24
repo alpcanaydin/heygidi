@@ -1,0 +1,19 @@
+{
+  "name": "heygidi",
+  "version": "1.0.0",
+  "homepage": "https://alpcanaydin.github.io/heygidi",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^12.1.3",
+    "java": "^0.8.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
