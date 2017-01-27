@@ -1,7 +1,6 @@
-data/*.json
-node_modules
-.flowconfig
-.vagrant
+backend/data/*.json
+backend/node_modules
+backend/.vagrant
 .DS_Store
 *.log
-config.json
+backend/config.json
