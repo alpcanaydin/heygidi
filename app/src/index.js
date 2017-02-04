@@ -1,9 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+
+import App from './components/App';
+import Home from './components/Home';
+import Year from './components/Year';
+
 import './index.css';
 
+const Root = () => (
+  <Router history={hashHistory}>
+    <Route path="/" component={App}>
+      <IndexRoute component={Home} />
+      <Route path="/year/:year" component={Year} />
+    </Route>
+  </Router>
+);
+
 ReactDOM.render(
-  <App />,
+  <Root />,
   document.getElementById('root')
 );
