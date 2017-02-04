@@ -52,7 +52,7 @@ const getData = (year) => {
     wordsCount: {
       terms: {
         field: 'Stems',
-        size: 100,
+        size: 500,
         exclude: EXCLUDES
       }
     }
