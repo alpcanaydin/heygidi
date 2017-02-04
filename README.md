@@ -7,9 +7,9 @@ Kelimelerin köklerini bulabilmek için [zemberek-nlp](https://github.com/ahmeta
 ## Kurulum
 Komutları çalıştırmadan önce `backend/config.json.example` dosyasını kendi bilgilerinizle güncelleyip `backend/config.json` şeklinde kaydetmeniz gerekmektedir.
 
-**Hurriyet API**'den verileri çekmek için `backend/bin/fetchData.js` dosyası çalıştırılmalıdır.
-**Elasticsearch** üzerinde mapping'leri yaratmak için `backend/bin/createMapping.js` dosyası çalıştırılmalıdır.
-**Çekilen veriyi Elasticsearch'e aktarmak** için `backend/bin/indexData.js` komutu çalıştırılmalıdır.
-**Kelimeleri saymak** için ise `backend/bin/exportData.js` komutu kullanılmalıdır.
+* **Hurriyet API**'den verileri çekmek için `backend/bin/fetchData.js` dosyası çalıştırılmalıdır.
+* **Elasticsearch** üzerinde mapping'leri yaratmak için `backend/bin/createMapping.js` dosyası çalıştırılmalıdır.
+* **Çekilen veriyi Elasticsearch'e aktarmak** için `backend/bin/indexData.js` komutu çalıştırılmalıdır.
+* **Kelimeleri saymak** için ise `backend/bin/exportData.js` komutu kullanılmalıdır.
 
 React uygulaması `app` dizininde bulunmaktadır.
