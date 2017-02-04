@@ -5,6 +5,8 @@ import Cloud from './Cloud';
 
 import dataTransformer from '../util/dataTransformer';
 
+import './Year.css';
+
 class Year extends Component {
   constructor(props) {
     super(props);
@@ -52,6 +54,14 @@ class Year extends Component {
 
     if (loading) {
       return <Loading />;
+    }
+
+    if (!data.length) {
+      return (
+        <div className="noData">
+          Bu yıl için veri bulunmuyor.
+        </div>
+      );
     }
 
     return (
