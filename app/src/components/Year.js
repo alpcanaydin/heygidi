@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import { hashHistory } from 'react-router';
 
 import Loading from './Loading';
 import Cloud from './Cloud';
@@ -12,7 +13,12 @@ class Year extends Component {
     super(props);
     this.state = {
       data: [],
-      loading: false
+      loading: false,
+      years: [
+        2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010,
+        2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002,
+        2001, 2000, 1999, 1998, 1997
+      ]
     };
   }
 
@@ -29,6 +35,11 @@ class Year extends Component {
   }
 
   loadData(year) {
+    if (this.state.years.indexOf(parseInt(year, 10)) === -1) {
+      hashHistory.push('/');
+      return;
+    }
+
     /* eslint-disable */
     const data = require(`../data/${year}.json`);
     /* eslint-enable */
