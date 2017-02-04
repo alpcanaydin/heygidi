@@ -5,6 +5,7 @@
 
 # Backend
 backend/data/*.json
+backend/data/new/*.json
 backend/node_modules
 backend/.vagrant
 backend/config.json
