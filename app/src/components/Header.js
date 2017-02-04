@@ -29,6 +29,11 @@ class Header extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >kaynağı görüntüle</a>
+          <a
+            href="https://twitter.com/alpcanaydin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >@alpcanaydin</a>
         </div>
       </div>
     );

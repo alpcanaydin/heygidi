@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alpcanaydin.github.io/heygidi",
   "devDependencies": {
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.0.0",
