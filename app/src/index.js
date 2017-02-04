@@ -14,6 +14,7 @@ const Root = () => (
       <IndexRoute component={Home} />
       <Route path="/year/:year" component={Year} />
     </Route>
+    <Route path="*" component={() => hashHistory.push('/')} />
   </Router>
 );
 
